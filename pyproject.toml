@@ -24,4 +24,4 @@ dependencies = [
 ]
 
 [project.scripts]
-any-to-md-cli = "any_to_markdown_ai.cli:main"
+any-to-md-cli = "any_to_md_cli.cli:main"

@@ -11,22 +11,9 @@ A command-line tool that uses AI (via `litellm`) to convert various file content
 - Allows custom prompt templates for tailored conversions.
 
 ## Installation
-
-1.  **Clone the repository (if developing):**
-    ```bash
-    git clone <repository-url>
-    cd any-to-md-cli-project # Or your chosen project directory name
-    ```
-
-2.  **Install the package:**
-    For local development (ensure you have a virtual environment activated):
-    ```bash
-    pip install -e .
-    ```
-    Once published to PyPI, you'll be able to install it via:
-    ```bash
-    pip install any-to-md-cli
-    ```
+```bash
+pip install any-to-md-cli
+```
 
 ## API Key Configuration
 

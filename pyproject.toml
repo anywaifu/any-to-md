@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "any-to-md-cli"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="anywaifu", email="anywaifu@protonmail.com" },
 ]

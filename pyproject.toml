@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Utilities",
-    "Framework :: Click",
+    "Environment :: Console",
 ]
 dependencies = [
     "click>=8.0",

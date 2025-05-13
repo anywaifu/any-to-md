@@ -21,11 +21,11 @@ def test_cli_successful_conversion(runner, tmp_path, mocker):
 
     assert result.exit_code == 0
     assert f"Reading content from: {input_file}" in result.output
-    assert "Converting content using model: gpt-4.1-mini..." in result.output
+    assert "Converting content using model: gpt-4.1-nano..." in result.output
     assert f"Successfully converted and saved to: {output_file}" in result.output
     assert output_file.read_text() == "## Converted Content"
     mock_convert.assert_called_once_with(
-        "Hello world", "gpt-4.1-mini", None, None, None
+        "Hello world", "gpt-4.1-nano", None, None, None
     )
 
 

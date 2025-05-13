@@ -18,7 +18,7 @@ from . import __version__
 )
 @click.option(
     "-m", "--model",
-    default="gpt-4.1-mini",
+    default="gpt-4.1-nano",
     show_default=True,
     help="The LLM model to use for conversion (e.g., gpt-4o, claude-3-opus-20240229)."
 )
